@@ -1,6 +1,6 @@
 public class SimpleAgenda {
 
-    static String[] listName = new String[2]; // store the names
+    static String[] listName = new String[3]; // store the names
     static int index=0;
 
     public static void main(String[] args) {
