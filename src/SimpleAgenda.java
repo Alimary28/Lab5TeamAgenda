@@ -2,6 +2,7 @@ public class SimpleAgenda {
 
     static String[] listName = new String[6]; // store the names
     static int index=0;
+    static String searchName;
 
 
 
@@ -70,14 +71,15 @@ public class SimpleAgenda {
         // citeste un nume
         // il cauta in array
         //daca il gaseste il sterge  asa listName[unde l-a gasit]=null sau "";
-        String searchName =();
+
         boolean foundName =false;
 
         for(int i =0;i<listName.length;i++){
 
-            if(searchName==listName);{
+            if(searchName.equals(listName)){
                 foundName=true;
-                listName = null;
+                listName[i]=null;
+
             }
             System.out.println("The name is deleted");
         }
